@@ -1,4 +1,10 @@
 class Solver:
+
+    """
+    Puzzle: Count the number of box IDs (strings from input.txt) that have
+    the same letter appear exactly twice and/or the same letter exactly
+    3 times. Once counted, multiple the values to get the resulting checksum.
+    """
     
     def __init__(self):
 
