@@ -1,5 +1,10 @@
 class Solver:
 
+    """
+    Puzzle: Find the resulting number after adding/subtracing 
+    all numbers from input.txt together.
+    """
+
     def __init__(self):
         self.frequency = 0
 
