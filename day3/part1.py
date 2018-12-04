@@ -117,9 +117,6 @@ class Solver:
         # Ending position
         ex, ey = end_pos
 
-        if claim == "4":
-            a = 5
-
         while sy <= ey and sx <= ex:
             self.grid[sy][sx] = self.perform_action(claim, self.grid[sy][sx])
 
